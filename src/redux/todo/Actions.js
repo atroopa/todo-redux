@@ -11,3 +11,13 @@ export const insertTodo = row => {
         }
     }
 }
+
+
+export const toggleTodo = id => {
+    return {
+        type: TOGGLE_TODO,
+        payload: {
+            id:id
+        }
+    }
+}
