@@ -1,9 +1,10 @@
+import AddTodo from "./components/AddTodo";
 
 
 function App() {
   return (
     <div >
-      APP
+      <AddTodo/>
     </div>
   );
 }
