@@ -5,7 +5,7 @@ const initialState = {
     data: []
 };
 
-const reducer = (state= initialState, action) => {
+const Reducer = (state= initialState, action) => {
 
     switch (action.type) {
         case INSERT_TODO:
@@ -22,10 +22,12 @@ const reducer = (state= initialState, action) => {
             }
 
         case TOGGLE_TODO:
-
+            break;
     
         default:
-            break;
+            return state;
     }
 
 };
+
+export default Reducer;
