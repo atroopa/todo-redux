@@ -16,7 +16,7 @@ class AddTodo extends Component {
     }
 
     ClickHandler = () => {
-        this.props.insertTodo(this.state.insertTodo);
+        this.props.insertTodo(this.state.input);
         this.setState({input: ''});
     }
 
